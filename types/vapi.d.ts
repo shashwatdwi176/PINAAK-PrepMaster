@@ -18,7 +18,7 @@ enum TranscriptMessageTypeEnum {
 
 interface BaseMessage {
   type: MessageTypeEnum;
-}
+} 
 
 interface TranscriptMessage extends BaseMessage {
   type: MessageTypeEnum.TRANSCRIPT;
