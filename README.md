@@ -58,19 +58,17 @@ Ensure you have the following installed:
 
 git clone https://github.com/shashwatdwi176/PINAAK-PrepMaster.git
 cd pinaak-prepmaster
+```
+### 📥 Install Dependencies
+```bash
 
-📥 Install Dependencies
-bash
-Copy
-Edit
 npm install
-
-🔐 Set Up Environment Variables
+```
+### 🔐 Set Up Environment Variables
 Create a .env.local file in the root of the project and add the following:
 
-env
-Copy
-Edit
+```env
+
 NEXT_PUBLIC_VAPI_WEB_TOKEN=
 NEXT_PUBLIC_VAPI_WORKFLOW_ID=
 
@@ -88,16 +86,17 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 FIREBASE_PROJECT_ID=
 FIREBASE_CLIENT_EMAIL=
 FIREBASE_PRIVATE_KEY=
+```
 Replace the placeholders with your actual Firebase, Vapi, and Google Gemini API keys.
 
-🚀 Run the Project Locally
-bash
-Copy
-Edit
+### 🚀 Run the Project Locally
+```bash
+
 npm run dev
+```
 Open your browser and go to http://localhost:3000
 
-🧩 Project Structure & Key Files
+### 🧩 Project Structure & Key Files
 globals.css – Global styles
 
 lib/utils.ts – Utility functions
